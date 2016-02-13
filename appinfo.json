@@ -1,0 +1,38 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "Graham De Young",
+    "enableMultiJS": true,
+    "longName": "Beer Time!",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/beer-time-menu-img.png",
+                "menuIcon": true,
+                "name": "BEER_TIME_MENU_IMG",
+                "targetPlatforms": null,
+                "type": "bitmap"
+            },
+            {
+                "file": "images/beer-time-bg.png",
+                "name": "BEER_TIME_BG_IMG",
+                "storageFormat": "png",
+                "targetPlatforms": null,
+                "type": "bitmap"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "Beer Time!",
+    "targetPlatforms": [
+        "basalt"
+    ],
+    "uuid": "09f8883f-aec9-491f-8dcf-143cd6574d67",
+    "versionLabel": "0.5",
+    "watchapp": {
+        "watchface": true
+    }
+}
