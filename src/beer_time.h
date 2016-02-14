@@ -5,11 +5,12 @@
 #define MAX_BUBBLE_COUNT 20
 
 /* Variable definitions */
-struct Bubble {
+typedef struct Bubble {
     int16_t x;
     int16_t y;
     int16_t rad;
-};
+    Layer *layer;
+} Bubble;
 
 /* Function definitions */
 void drawBubbles(Layer *bubbles_layer, GContext *ctx);
